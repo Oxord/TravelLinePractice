@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\create_article.html",
+      "PackagePath": "staticwebassets\\create_article.html"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\images\\article.png",
+      "PackagePath": "staticwebassets\\images\\article.png"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\images\\novel.png",
+      "PackagePath": "staticwebassets\\images\\novel.png"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\images\\poem.png",
+      "PackagePath": "staticwebassets\\images\\poem.png"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\public.html",
+      "PackagePath": "staticwebassets\\public.html"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\read.html",
+      "PackagePath": "staticwebassets\\read.html"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\read_article.html",
+      "PackagePath": "staticwebassets\\read_article.html"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\scripts\\ReadScript.js",
+      "PackagePath": "staticwebassets\\scripts\\ReadScript.js"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\scripts\\api-service.js",
+      "PackagePath": "staticwebassets\\scripts\\api-service.js"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\scripts\\main.js",
+      "PackagePath": "staticwebassets\\scripts\\main.js"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\styles\\styles.css",
+      "PackagePath": "staticwebassets\\styles\\styles.css"
+    },
+    {
+      "Id": "D:\\TrevelLine Practice\\WebApplication\\wwwroot\\styles\\styles_public_read.css",
+      "PackagePath": "staticwebassets\\styles\\styles_public_read.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Web.props",
+      "PackagePath": "build\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Web.props",
+      "PackagePath": "buildMultiTargeting\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Web.props",
+      "PackagePath": "buildTransitive\\Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

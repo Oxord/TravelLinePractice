@@ -1,0 +1,129 @@
+﻿body {
+    background-color: #d6d6d6;
+}
+
+.layout {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.controls{
+    display: flex;
+}
+
+.create_form {
+    margin-top: 150px;
+    display: flex;
+}
+
+.create_article{
+    width: 373px;
+    height: 100px;
+}
+
+.create_poem {
+    width: 373px;
+    height: 100px;
+    margin-left: 40px;
+}
+
+.create_novel {
+    width: 373px;
+    height: 100px;
+    margin-left: 40px;
+}
+
+.create_button {
+    color: #ffffff;
+    width: 100%;
+    background-color: #08d;
+    cursor: pointer;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #303245;
+    cursor: pointer
+}
+
+.create_button:active {
+    background-color: #20212e;
+    border-bottom: 2px solid #08d;
+}
+
+.img {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button_publish {
+    color: #ffffff;
+    background-color: #08d;
+    cursor: pointer;
+    width: 50%;
+    height: 30px;
+    border: none;
+}
+
+.button_publish:active {
+    background-color: #06b;
+    border-bottom: 2px solid currentColor;
+}
+
+.button_read {
+    color: #ffffff;
+    background-color: #08d;
+    cursor: pointer;
+    width: 50%;
+    height: 30px;
+    border: none;
+}
+
+.button_read:active {
+    background-color: #06b;
+    border-bottom: 2px solid currentColor;
+}
+
+cards-container {
+    align-items: center;
+    background-color: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#articles-list-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+#article-card-template{
+}
+
+.article-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.text_in_article-card{
+    height: 250px;
+}
+
+.title_in_article-card{
+    height: 70px;
+}
+
+textarea {
+    border: none;
+    resize: none;
+}

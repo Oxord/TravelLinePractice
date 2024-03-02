@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>public</title>
+    <link rel="stylesheet" href="styles/styles_public_read.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+            integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="layout">
+        <div class="controls">
+            <button type="text" class="button_publish" onclick="replace_publish()">Publish</button>
+            <button type="text" class="button_read"onclick="replace_read()">Read</button>
+        </div>
+        <div class="articles">
+            <div class="create_form">
+                <div class="create_article">
+                    <button class="create_button" onclick="replace_create_article()">Publish article</button>
+                    <img src="images/article.png" alt="article_image" class="img"/>
+                </div>
+                <div class="create_poem">
+                    <button class="create_button">Publish poem</button>
+                    <img src="images/poem.png" alt="poem_image" class="img" />
+                </div>
+                <div class="create_novel">
+                    <button class="create_button">Publish novel</button>
+                    <img src="images/novel.png" alt="novel_image" class="img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>

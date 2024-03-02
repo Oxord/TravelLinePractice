@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CreateArticle</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+            integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="form">
+        <div class="input-container">
+            <input id="title-input" class="input" type="text" placeholder=" " />
+            <div class="cut cut-short"></div>
+            <label for="title-input" class="placeholder">Title</label>
+        </div>
+        <div class="input-container2 ic2">
+            <textarea id="text-input" class="input text-input" type="text" placeholder=" "></textarea>
+            <div class="cut cut-short"></div>
+            <label for="text" class="placeholder">Text</label>
+        </div>
+        <button class="submit2" onclick="addArticle()">publish</button>
+        <button class="submit" onclick="replace_publish()">back</button>
+    </div>
+    
+        <script src="scripts/main.js" type="module"></script>
+</body>
+</html>
